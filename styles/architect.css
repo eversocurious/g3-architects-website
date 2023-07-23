@@ -92,3 +92,39 @@ nav > h3{
 
     
 }
+
+/* main styles */
+main{
+    max-width: 1440px;
+    padding: 0 auto;
+}
+/*  */
+.teams-container{
+    display: flex;
+    align-items: center;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.9rem;
+    width: 468px;
+}
+.quick-list{
+    font-weight: 500;
+    color: #727272;
+}
+.of-our{
+    color: #131313;
+    font-weight: 700;
+}
+.features{
+    color: #FF900E;
+    font-weight: 700;
+}
